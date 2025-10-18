@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tarjeta</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        #inicio {
+            display: block;
+            max-width: 300px;
+            margin: 40px auto 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        #inicio:hover {
+            transform: scale(1.05) translateY(-5px);
+            box-shadow: 0 12px 32px rgba(14, 165, 233, 0.3);
+        }
+
+
+        .sobre-mi,
+        .final {
+            background-color: #1e293b;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 25px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            font-size: 1.1rem;
+            color: #cbd5e1;
+        }
+
+        .links {
+            text-align: center;
+            margin: 40px auto;
+        }
+
+        .links a {
+            display: inline-block;
+            margin: 10px 12px;
+            text-decoration: none;
+            font-weight: 500;
+            color: #7dd3fc;
+            padding: 12px 20px;
+            border: 2px solid #7dd3fc;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+            background-color: transparent;
+        }
+
+        .links a:hover {
+            background-color: #0ea5e9;
+            color: #0f172a;
+            border-color: #0ea5e9;
+            transform: scale(1.05) translateY(-2px);
+            box-shadow: 0 6px 20px rgba(14, 165, 233, 0.4);
+        }
+
+        .links a[href="#inicio"] {
+            background-color: #334155;
+            color: #e2e8f0;
+            border-color: #475569;
+        }
+
+        .links a[href="#inicio"]:hover {
+            background-color: #475569;
+            color: #ffffff;
+            border-color: #7dd3fc;
+        }
+
+        @media (max-width: 600px) {
+
+            .sobre-mi,
+            .final {
+                padding: 20px;
+                font-size: 1rem;
+            }
+
+            .links a {
+                display: block;
+                margin: 12px auto;
+            }
+
+            #inicio {
+                max-width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="WhatsApp Image 2025-09-26 at 2.45.46 PM.jpeg" alt="friends" id="inicio">
+
+
+    <p class="sobre-mi">Soy un diseñador gráfico con experiencia en la creación de identidades visuales que transmiten
+        personalidad, coherencia y propósito. Me especializo en el desarrollo de marcas, combinando creatividad con
+        estrategia para construir diseños que conecten con el público y cuenten una historia. He trabajado en proyectos
+        donde he tenido la oportunidad de desarrollar logotipos, paletas de color, tipografía y aplicaciones visuales
+        coherentes con los valores de cada marca. <br><br>
+        A lo largo de mi recorrido he ido fortaleciendo mis habilidades técnicas y creativas, siempre con una visión
+        clara: crear marcas con impacto y significado. Me gusta mantenerme en constante evolución, explorando nuevas
+        tendencias y herramientas del diseño para ofrecer soluciones visuales originales, funcionales y bien pensadas.
+        Cada proyecto es una oportunidad para crecer y aportar valor a través del diseño.</p>
+
+
+    <div class="links">
+        <a href="https://www.facebook.com/share/1bAajfrBBy/">Facebook</a> <br>
+        <a href="https://www.instagram.com/oliververa537?igsh=MWlhd2lldGx3N252bQ==">Instagram</a> <br>
+        <a href="https://www.tiktok.com/@oliver.vera421?_t=ZS-8zECkjdQQg1&_r=1">Tik Tok</a> <br>
+        <a href="https://www.behance.net/oliververa3">Behance</a> <br>
+        <a href="https://wa.me/51993802137">WhatsApp</a> <br>
+        <a href="https://pe.linkedin.com/in/oliver-vera-73215a36b">Linkedin</a> <br>
+        <a
+            href="https://open.spotify.com/playlist/3oLdU7WmZWAQTrnRn5EPi1?si=YVn4awQiTwGQ_3wnmDH8uQ&pi=U9jL-r2uSrKQU">Spotify</a>
+        <br>
+        <a href="https://youtube.com/@oliververa-l1h2k?si=zZJXQScfKO2vQIU7">YouTube</a> <br>
+        <a href="mailto:oliververal47@gmail.com">Correo</a> <br>
+        <a href="#inicio">Volver Arriba</a> <br> <br>
+    </div>
+
+    <p class="final">Estoy comprometido con seguir creciendo como diseñador y aportando ideas frescas que ayuden a las
+        marcas a destacar en un mercado competitivo. Mi objetivo es combinar creatividad y funcionalidad para crear
+        soluciones visuales que no solo sean atractivas, sino que también generen un impacto duradero en la audiencia.
+        Cada nuevo proyecto representa una oportunidad para demostrar mi pasión y dedicación al diseño de marcas.</p>
+</body>
+
+</html>
